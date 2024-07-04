@@ -1,0 +1,88 @@
+.HangmanGame {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.HangmanGame h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.HangmanGame button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.HangmanGame button:hover {
+  background-color: #0056b3;
+}
+
+.HangmanGame p {
+  margin-bottom: 10px;
+}
+
+.HangmanGame .message {
+  font-weight: bold;
+  color: #dc3545;
+}
+
+.HangmanGame .game-info {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.HangmanGame .game-state {
+  margin-top: 20px;
+}
+
+.HangmanGame .game-state p {
+  margin-bottom: 5px;
+}
+
+.HangmanGame .guess-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.HangmanGame .guess-input input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.HangmanGame .guess-input button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.HangmanGame .guess-input button:hover {
+  background-color: #218838;
+}
