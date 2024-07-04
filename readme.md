@@ -17,6 +17,7 @@ This repository contains a Django Rest Framework based backend API and the front
 ## Running the Project
 
 2. Commands to run the backend
+   ```bash
    cd hangman_proj
    python -m venv env
    source env/bin/activate
@@ -25,7 +26,8 @@ This repository contains a Django Rest Framework based backend API and the front
    python manage.py migrate
    python manage.py runserver
 
-3. Commands to run the frontend
+4. Commands to run the frontend
+   ```bash
    cd hangman_frontend
    npm install
    npm start
