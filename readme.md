@@ -23,7 +23,7 @@ This repository contains a Django Rest Framework based backend API and the front
    source env/bin/activate
    pip install -r requirements.txt
    python manage.py migrate --run-syncdb
-   python manage.py runserver
+   python manage.py runserver 127.0.0.1:8000
 
 4. Commands to run the frontend
    ```bash
