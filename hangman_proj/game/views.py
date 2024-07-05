@@ -52,6 +52,20 @@ def make_guess(request, pk):
     # Create a new guess instance
     guess = Guess.objects.create(game=game, character=character)
 
+    # if correct_guess:
+    # all_guessed = True
+    # for char in game.word.lower():
+    #     char_guessed = False
+    #     for g in game.guesses.all():
+    #         if char == g.character:
+    #             char_guessed = True
+    #             break
+    #     if not char_guessed:
+    #         all_guessed = False
+    #         break
+    # if all_guessed:
+    #     game.state = 'Won'
+    
     # Update game state based on the guess
     if correct_guess:
         if all(char.lower() in [g.character for g in game.guesses.all()] for char in game.word.lower()):
